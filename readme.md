@@ -5,7 +5,7 @@ Katie Kujala's P3
 <http://p3.katielu.me>
 
 ## Description
-Created a Lorem Ipsum Generator and a Random User Generator using Laravel.
+Created a Developer's Best Friend that includes a Lorem Ipsum Generator and a Random User Generator using Laravel.
 
 ## Demo
 <>
@@ -14,4 +14,4 @@ Created a Lorem Ipsum Generator and a Random User Generator using Laravel.
 N/A
 
 ## Outside code
-*Laravel
+*Laravel framework: http://laravel.com/
