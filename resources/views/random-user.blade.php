@@ -2,7 +2,7 @@
 
 @section('title')
     Random User Generator
-@stop
+@endsection
 
 @section('content')
     <div class="container">
@@ -15,4 +15,4 @@
             </div>
         </div>
     </div>
-@stop
+@endsection

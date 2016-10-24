@@ -15,3 +15,4 @@ N/A
 
 ## Outside code
 *Laravel framework: http://laravel.com/
+*laravel-lipsum by magyarjeti: http://packalyst.com/packages/package/magyarjeti/laravel-lipsum
