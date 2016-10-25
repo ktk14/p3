@@ -12,9 +12,10 @@
 
 */
 Route::get('/lorem-ipsum/create', 'LoremController@create')->name('lorem-ipsum.create');
-Route::post('/lorem-ipsum', 'LoremController@store')->name('lorem-ipsum.store');
+Route::post('/lorem-ipsum/store', 'LoremController@store')->name('lorem-ipsum.store');
 Route::get('/random-user/create', 'UserController@create')->name('random-user.create');
-Route::post('/random-user', 'UserController@store')->name('random-user.store');
+Route::post('/random-user/store', 'UserController@store')->name('random-user.store');
+
 # Main homepage
 Route::get('/', function () {
     return view('home');

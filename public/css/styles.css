@@ -1,0 +1,11 @@
+.userEntry {
+    list-style: none;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.errors {
+    color: red;
+}

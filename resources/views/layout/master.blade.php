@@ -6,8 +6,9 @@
     <!-- To ensure proper rendering and touch zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title','Katie Kujala's P3')</title>
+    <title>@yield('title',"Katie Kujala's P3")</title>
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css"rel="stylesheet">
     @yield('head')
 </head>
 <body>

@@ -15,4 +15,5 @@ N/A
 
 ## Outside code
 *Laravel framework: http://laravel.com/
-*laravel-lipsum by magyarjeti: http://packalyst.com/packages/package/magyarjeti/laravel-lipsum
+*Badcow Lorem ipsum generator package: https://github.com/Badcow/LoremIpsum
+*RandomUser generator package by Philip Whitt: https://github.com/philipwhitt/randomuser-client
