@@ -20,9 +20,9 @@ Random User Generator
         <label for="numUsers">Number of users?</label> <input type='text' name='numUsers' maxlength="2" value='{{old("numUsers")}}'> (Max: 27)
         <button type='submit' value='Generate Users!'>Generate Random Users!</button>
         @if(count($errors) > 0)
-        <ul class="error">
+        <ul class="text-danger list-unstyled">
             @foreach ($errors->all() as $error)
-            <li class="error">{{ $error }}</li>
+            <li>{{ $error }}</li>
             @endforeach
         </ul>
         @endif

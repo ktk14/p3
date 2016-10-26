@@ -41,8 +41,8 @@ class UserController extends Controller
 
         # loop through users object and insert values into text
         foreach($users as $user) {
-            array_push($textArray, '<ul class="userEntry">');
-            array_push($textArray, '<li class="nome">Name: '.$user->getFirstName().' '.$user->getLastName().'</li>');
+            array_push($textArray, '<ul class="list-unstyled">');
+            array_push($textArray, '<li><strong>Name: '.$user->getFirstName().' '.$user->getLastName().'</strong></li>');
             array_push($textArray, '<li>Sex: '.$user->getGender().'</li>');
             array_push($textArray, '<li>Username: '.$user->getUsername().'</li>');
             array_push($textArray, '<li>Password: '.$user->getPassword().'</li>');

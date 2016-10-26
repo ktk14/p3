@@ -17,12 +17,12 @@ Lorem Ipsum Generator
 <div class="row">
     <form method='POST' action='/lorem-ipsum/store'>
         {{ csrf_field() }}
-        Number of paragraphs? <input type='text' name='numParagraphs' maxlength="1" value='{{old("numParagraphs")}}'>
+        <label for="numParagraphs">Number of paragraphs?</label> <input type='text' name='numParagraphs' maxlength="1" value='{{old("numParagraphs")}}'>
         <button type='submit' value='Generate Lorem Ipsum!'>Generate Lorem Ipsum!</button>
         @if(count($errors) > 0)
-        <ul class="error">
+        <ul class="text-danger list-unstyled">
             @foreach ($errors->all() as $error)
-            <li class="error">{{ $error }}</li>
+            <li>{{ $error }}</li>
             @endforeach
         </ul>
         @endif
