@@ -9,7 +9,6 @@
             </p>
         </div>
     </div>
-    <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <h3>Lorem Ipsum Generator</h3>
@@ -28,5 +27,5 @@
                         <p><a href="/random-user/create">Go forth and create random users!</a></p>
             </div>
         </div>
-    </div>
-@stop
+    <img class="img-rounded center-block" height="300px" src="/images/sisters.jpg" alt="Katie and younger sister, Karie" title="Random Halloween picture from childhood">
+@endsection

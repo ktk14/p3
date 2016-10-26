@@ -8,13 +8,13 @@
 
     <title>@yield('title',"Katie Kujala's P3")</title>
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/styles.css"rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     @yield('head')
 </head>
 <body>
-    <section>
+    <div class="container">
         @yield('content')
-    </section>
+    </div>
     <div class="container">
         <footer class="navbar-default navbar-fixed-bottom">
             <div class="container text-center">
@@ -26,6 +26,5 @@
     </div>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        @yield('body')
 </body>
 </html>
