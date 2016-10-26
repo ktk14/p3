@@ -17,7 +17,7 @@
     <div class="container">
         @yield('content')
     </div>
-    <div class="navbar navbar-fixed-bottom" role="navigation" style="padding-top:10px;">
+    <div class="navbar navbar-bottom" role="navigation" style="padding-top:10px;">
         <div class="col-md-12 text-center">
             <p class="small" style="background-color:lavenderblush;">
                 Created by Katie Kujala for CSCI E-15 Fall 2016
