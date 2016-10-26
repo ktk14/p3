@@ -10,7 +10,6 @@
     <link rel="icon" type="image/jpeg" href="{{ asset('/images/favicon.jpg') }}" >
     <!--[if IE]><link rel="shortcut icon" href="{{ asset('/favicon.ico') }}"/><![endif]-->
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet">
     @yield('head')
 </head>
 <body>
