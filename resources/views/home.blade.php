@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('content')
-    <div class="container">
+    <div class="row">
         <div class="jumbotron">
             <h1>Developer's Best Friend</h1>
             <p>
@@ -10,7 +10,7 @@
         </div>
     </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h3>Lorem Ipsum Generator</h3>
                     <p>
                         Lorem ipsum is scrambled Latin text that facilitaties focus to be on functionality and layout instead of what place-holder text says.
@@ -18,7 +18,7 @@
                         <br />
                         <p><a href="/lorem-ipsum/create">Go forth and create scrambled Latin text!</a></p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                     <h3>Random User Generator</h3>
                         <p>
                             This will help generate random user data such as name, birth date and brief lorem ipsum style bio.
