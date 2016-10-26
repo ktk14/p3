@@ -1,12 +1,12 @@
-@extends('layout.master')
+@extends("layout.master")
 
-@section('title')
+@section("title")
 Lorem Ipsum Generation
 @endsection
 
-@section('content')
+@section("content")
 <div class="row">
-    <a href='/'>&larr; Home</a>
+    <a href="/">&larr; Home</a>
 </div>
 <div class="row">
     <div class="col-md-8">

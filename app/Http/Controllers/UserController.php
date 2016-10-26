@@ -42,7 +42,7 @@ class UserController extends Controller
         # loop through users object and insert values into text
         foreach($users as $user) {
             array_push($textArray, '<dl class="dl-horizontal">');
-            array_push($textArray, '<dt><strong>Name: </dt><dd>'.$user->getFirstName().' '.$user->getLastName().'</strong></dd>');
+            array_push($textArray, '<dt>Name: </dt><dd><strong>'.$user->getFirstName().' '.$user->getLastName().'</strong></dd>');
             array_push($textArray, '<dt>Sex: </dt><dd>'.$user->getGender().'</dd>');
             array_push($textArray, '<dt>Username: </dt><dd>'.$user->getUsername().'</dd>');
             array_push($textArray, '<dt>Password: </dt><dd>'.$user->getPassword().'</dd>');

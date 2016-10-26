@@ -6,15 +6,15 @@
     <!-- To ensure proper rendering and touch zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title',"Katie Kujala's P3")</title>
+    <title>@yield("title","Katie Kujala's P3")</title>
     <link rel="icon" type="image/jpeg" href="{{ asset('/images/favicon.jpg') }}" >
     <!--[if IE]><link rel="shortcut icon" href="{{ asset('/favicon.ico') }}"/><![endif]-->
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
-    @yield('head')
+    @yield("head")
 </head>
 <body>
     <div class="container">
-        @yield('content')
+        @yield("content")
     </div>
     <div class="navbar navbar-bottom" role="navigation" style="padding-top:10px; margin:10px;">
         <div class="col-md-12 text-center">
