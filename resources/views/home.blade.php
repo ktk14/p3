@@ -21,7 +21,7 @@
     <div class="col-md-6">
         <h3>Random User Generator</h3>
         <p>
-            This will help generate random user data such as name, birth date and brief lorem ipsum style bio.
+            This will help generate random user data such as first name, last name, username and password.
         </p>
         <br />
         <p><a href="/random-user/create">Go forth and create random users!</a></p>
