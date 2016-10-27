@@ -22,7 +22,7 @@ Lorem Ipsum Generator
                 Number of paragraphs?
             </div>
             <div class="col-md-4">
-                <input type="text" placeholder="14" id="numParagraphs" name="numParagraphs" maxlength="1" value="{{old('numParagraphs')}}">
+                <input type="text" placeholder="3" id="numParagraphs" name="numParagraphs" maxlength="1" value="{{old('numParagraphs')}}">
             </div>
             <div class="col-md-5">
                 <button type="submit" value="Generate Lorem Ipsum!" class="btn btn-info">Generate Lorem Ipsum!</button>
