@@ -39,7 +39,7 @@ class UserController extends Controller
         $users = $gen->getUsers($numUsers);
         $textArray = array(); # blank array
 
-        # loop through users object and insert values into text
+        # loop through users object and insert values into array
         foreach($users as $user) {
             array_push($textArray, '<dl class="dl-horizontal">');
             array_push($textArray, '<dt>Name: </dt><dd><strong>'.$user->getFirstName().' '.$user->getLastName().'</strong></dd>');

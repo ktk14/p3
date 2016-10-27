@@ -15,10 +15,19 @@ Random User Generator
     </div>
 </div>
 <div class="row">
-    <form method="POST" action="/random-user/store">
+    <form method="POST" action="/random-user/store" class="form-inline">
         {{ csrf_field() }}
-        Number of users? <input type="text" name="numUsers" maxlength="2" value="{{old('numUsers')}}"> (Max: 27)
-        <button role="button" type="submit" value="Generate Users!">Generate Random Users!</button>
+        <div class="form-group">
+            <div class="col-md-3">
+                <lable for="numUsers">Number of users? (Max: 27)</lable>
+            </div>
+            <div class="col-md-4">
+                <input type="text" placeholder="14" id="numUsers" name="numUsers" maxlength="2" value="{{old('numUsers')}}">
+            </div>
+            <div class="col-md-5">
+                <button type="submit" value="Generate Users!" class="btn btn-info">Generate Random Users!</button>
+            </div>
+        </div>
         @if(count($errors) > 0)
         <ul class="text-danger list-unstyled">
             @foreach ($errors->all() as $error)

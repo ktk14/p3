@@ -13,7 +13,7 @@ Random User Generation
         <h3>Random User Generation</h3>
     </div>
     <div class="col-md-4">
-        <a href="/random-user/create">Do it again!</a>
+        <a href="/random-user/create" class="btn btn-info">Do it again!</a>
     </div>
 </div>
 <div class="row">
