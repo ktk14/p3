@@ -19,7 +19,7 @@ Random User Generator
         {{ csrf_field() }}
         <div class="form-group">
             <div class="col-md-3">
-                <lable for="numUsers">Number of users? (Max: 27)</lable>
+                Number of users? (Max: 27)
             </div>
             <div class="col-md-4">
                 <input type="text" placeholder="14" id="numUsers" name="numUsers" maxlength="2" value="{{old('numUsers')}}">
